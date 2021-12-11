@@ -1,0 +1,250 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	/*box-sizing: border-box;*/
+	/*position: fixed;*/
+}
+body {
+	text-align: center;
+	/*position: fixed;*/
+	/*margin: auto;*/
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+	height: 100px;
+	background: #262626;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+	/*text-align: center;*/
+}
+.logo {
+	width: 30%;
+	float: left;
+	line-height: 100px;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: bignoodletitling;
+	/*color hex white*/
+	color: #fff;
+	letter-spacing: 5px;
+}
+nav {
+	float: right;
+	line-height: 100px;
+}
+nav a {
+	text-decoration: none;
+	font-family: bignoodletitling;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	/*color hex white*/
+	color: #fff;
+}
+nav button{
+   text-decoration: none;
+   font-family: bignoodletitling;
+   letter-spacing: 4px;
+   font-size: 13px;
+   margin: 0 10px;
+   /*color hex white*/
+   color: #fff;
+}
+/*home background*/
+.banner-area {
+	width: 100%;
+	height: 900px;
+	position: fixed;
+	top: 100px;
+	background-image: url(imgs/cornelia1.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.banner-area h2 {
+	padding-top: 8%;
+	font-size: 70px;
+	font-family: poppins;
+	text-transform: uppercase;
+	/*dark-slay-gray color*/
+	color: #2F4F4F;*/
+}
+.content-area {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	/*dark-slay-gray color*/
+	background: #2F4F4F;
+	height: 1500px;
+}
+
+.content-area h2 {
+	font-family: bignoodletitling;
+	color: white;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area p {
+	padding: 2% 0px;
+	font-family: mirenda;
+	color: white;
+	line-height: 30px;
+}
+
+/*huskyfact background logo*/
+.banner-area-husky {
+	width: 100%;
+	height: 900px;
+	position: fixed;
+	top: 100px;
+	background-image: url(imgs/huskylogo.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	}
+/*huskyfact page*/
+.content-area-husky {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	/*dark-slay-gray color*/
+	background: #2F4F4F;
+	height: 1500px;
+
+}
+/*huskyfact website link*/
+.content-area-husky a {
+   padding: 10px;
+   width: 120px;
+   color: black;
+   font-family: bignoodletitling;
+   background-color: white;
+   /*box-shadow: 5px 2px 2px #a9aba6;*/
+   display: block;
+   margin: auto;
+   border: 5px rounded #EFB2C1;
+   border-radius: 10px;
+}
+/*pugfact background logo*/
+.banner-area-pug {
+	width: 100%;
+	height: 900px;
+	position: fixed;
+	top: 100px;
+	background-image: url(imgs/huskylogo.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	}
+/*pugfact page*/
+.content-area-pug {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	/*dark-slay-gray color*/
+	background: #2F4F4F;
+	height: 1500px;
+}
+/*pug website link*/
+.content-area-pug a {
+   padding: 10px;
+   width: 120px;
+   color: black;
+   font-family: bignoodletitling;
+   background-color: white;
+   /*box-shadow: 5px 2px 2px #a9aba6;*/
+   display: block;
+   margin: auto;
+   border: 5px rounded #EFB2C1;
+   border-radius: 10px;
+}
+/*echo4 background*/
+.banner-area-echo4 {
+	width: 100%;
+	height: 900px;
+	position: fixed;
+	top: 100px;
+	background-image: url(imgs/echo4.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+/*echo page*/
+.content-area-blue {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	/*dark-slay-gray color*/
+	background: #2F4F4F;
+	height: 1500px;
+}
+/*echo page*/
+.content-area-blue h2 {
+	font-family: poppins;
+	color: whitesmoke;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area-blue img {
+	border-radius: 50%;
+}
+/*echo page*/
+.content-area-blue p {
+	padding: 2% 0px;
+	font-family: fantasy;
+	color: white;
+	line-height: 30px;
+}
+/*cincin page*/
+.content-area-green {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	/*dark-slay-gray color*/
+	background: #2F4F4F;
+	height: 1500px; 
+}
+/*cincin page*/
+.content-area-green h2 {
+	font-family: poppins;
+	color: whitesmoke;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+/*cincin video*/
+.content-area-green iframe{
+	width: 100%;
+	height: 900px;
+	position: left;
+	top: 100px;
+	background-size: cover;
+	background-position: center center;
+}
+
+/*contact background*/
+.banner-area-contact {
+	width: 100%;
+	height: 900px;
+	position: fixed;
+	top: 100px;
+	justify-content: center;
+}
+
+footer{
+	color: #BC8F8F;
+}
+
+
